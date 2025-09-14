@@ -1,4 +1,4 @@
-# PowerPlay Products
+# PowerPlay-iOS-Assignment
 
 An iOS application that displays a paginated list of products from a remote API. The app is built with UIKit and follows the MVVM architectural pattern.
 
