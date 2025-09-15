@@ -2,7 +2,7 @@ import Foundation
 
 class APIService: NetworkServiceProtocol {
     
-    private let baseURL = Config.string(for: "API_BASE_URL")
+    private let baseURL = "https://fakeapi.net/products"
     
     func fetchProducts(page: Int, completion: @escaping (Result<APIResponse, Error>) -> Void) {
         
